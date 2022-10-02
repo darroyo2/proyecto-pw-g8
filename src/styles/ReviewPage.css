@@ -1,0 +1,36 @@
+.menu{
+    display: block;
+    height: 300px;
+    width: 100%;
+  }
+.fondo{
+    background-color: #343f4b;
+    background-size: cover;
+  }
+.bloqueReview{
+  padding-top: 20px;
+  height: 700px;
+}
+.head1Review{
+  margin-bottom: 40px;
+  margin-left: 3%;
+}
+.comentario{
+  margin-left: 3%;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+.globalRate{
+  margin-left: 3%;
+  margin-bottom: 10px;
+  display: inline;
+}
+.textoComentario{
+  margin-left:3%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.estrellas{
+  margin-left: 40px;
+  height: 30px;
+}

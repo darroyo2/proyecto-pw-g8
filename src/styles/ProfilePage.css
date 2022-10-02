@@ -1,0 +1,65 @@
+  .menu{
+    display: block;
+    height: 300px;
+    width: 1000px;
+    background-color: #343f4b;
+  }
+
+  .bloqueL{
+    display: inline-block;
+    width: 400px;
+    height: 650px;
+    margin: 0%;
+    background: #343f4b;
+  }
+
+  .bloqueD{
+    display: inline-block;
+    padding-top: 50px;
+    width: 750px;
+    padding-left: 50px;
+    height: 650px;
+    border-right-color: gray;
+    border-radius: 5px;
+
+  }
+
+  .fondo{
+    background-color: #343f4b;
+    background-size: cover;
+  }
+  .update{
+  background-color:#c25be9;
+  margin-top: 50px;
+  display: inline;
+  width: 200px;
+  }
+  .label1{
+    display: flex;
+    width: 50%;
+
+  }
+  .form-first{
+    width: 49%;
+    display: inline;
+  }
+  .form-last{
+    margin-left: 10px;
+    width: 49%;
+    display: inline;
+  }
+  .last{
+    margin-left: 39%;
+  }
+  form{
+    width: 600px;
+  }
+.cancel{
+  margin-top: 30px;
+}
+.city{
+  margin-left: 30%;
+}
+.zip{
+  margin-left: 34%;
+}

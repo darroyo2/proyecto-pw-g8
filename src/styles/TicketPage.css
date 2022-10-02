@@ -1,0 +1,33 @@
+.menu{
+    display: block;
+    height: 300px;
+    width: 100%;
+  }
+.head1{
+  color: aliceblue;
+  padding-left: 7% ;
+}
+.fondo{
+    background-color: #343f4b;
+    background-size: cover;
+  }
+.bloqueT{
+    width: 70%;
+    height: 680px;
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom:100px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 10%;
+    border-right-color: gray;
+    border-radius: 5px;
+  }
+.submit{
+    background-color:#c25be9;
+    margin-top: 30px;
+    display: inline;
+    width: 160px;
+    }
