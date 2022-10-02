@@ -1,0 +1,36 @@
+.head1Influencers{
+    margin-bottom: 40px;
+    margin-left: 3%;
+    padding-top: 40px;
+    color: #343f4b;
+  }
+.videoemb{
+    width: 600px;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 3%;
+}
+.iconoInf{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.redline{
+    background: rgb(181, 31, 31);
+    width: 140px;
+    height: 20px;
+    display: inline-block;  
+    margin-left: 0%;
+}
+.nameInf{
+    display: inline-block;
+}
+.descriptionInf{
+    height: 500px;
+
+
+}

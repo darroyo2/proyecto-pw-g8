@@ -6,6 +6,7 @@ import MainPage from './pages/MainPage';
 import ProfilePage from './pages/ProfilePage';
 import TicketPage from './pages/TicketPage';
 import ReviewPage from './pages/ReviewPage';
+import InfluencersPage from './pages/InfluencersPage';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -19,6 +20,7 @@ root.render(
         <Route path='/profile' element={ <ProfilePage /> } />
         <Route path='/ticket' element={ <TicketPage />} />
         <Route path='/reviews' element={<ReviewPage/>}/>
+        <Route path='/influencers' element={<InfluencersPage/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
