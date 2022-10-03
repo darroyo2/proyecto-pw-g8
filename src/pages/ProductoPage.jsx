@@ -3,7 +3,7 @@ import "../styles/ProductoPage.css";
 import { useNavigate } from "react-router-dom";
 const ProductoPage = () => {
     const navigate = useNavigate();
-    return (<body className="producto-page">
+    return (<div className="producto-page">
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
@@ -100,6 +100,6 @@ const ProductoPage = () => {
                 </div>
             </div>
         </div>
-    </body>)
+    </div>)
 }
 export default ProductoPage

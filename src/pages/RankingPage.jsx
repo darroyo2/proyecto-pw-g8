@@ -13,8 +13,10 @@ import intel from '../images/Procesador-Intel-Core-i7-10700.png'
 import { useNavigate } from "react-router-dom";
 
 const RankingPage = () => {
+    
     const navigate = useNavigate();
-    return (<body id="ranking_body">
+    return (<div id="ranking_body">
+        <header>
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
@@ -51,6 +53,8 @@ const RankingPage = () => {
                 </div>
             </div>
         </nav>
+        </header>
+        <main>
         <div className="container mt-5">
             <div className="accordion " id="accordionExample">
                 <div className="accordion-item pc-rank">
@@ -423,7 +427,9 @@ const RankingPage = () => {
                 </div>
             </div>
         </div>
-    </body>
+        </main>
+        <footer></footer>
+    </div>
     );
 };
 

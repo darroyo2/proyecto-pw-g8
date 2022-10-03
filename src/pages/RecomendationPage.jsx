@@ -14,7 +14,7 @@ import { useNavigate } from "react-router-dom";
 
 const RecomendationPage = () => {
     const navigate = useNavigate();
-    return (<body className="page-producto">
+    return (<div className="page-producto">
     <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
             <a className="navbar-brand" href="#">
@@ -227,7 +227,7 @@ const RecomendationPage = () => {
             </div>
         </div>
     </div>
-    </body>)
+    </div>)
 }
 
 export default RecomendationPage;
