@@ -90,16 +90,21 @@ const ProfilePage = () => {
       <div>
         <div>
           <div className="bloqueL container">menu lateral</div>
+          <div className="bloqueMedio bg-light">
+            <h6>Default</h6>
+            <div>Ed Va</div>
+            <div>United States</div>
+          </div>
           <span className=" bloqueD container bg-light">
             <form className="" action="">
               <span className="form-label">First Name</span>
               <span className="form-label inline last">Last Name</span>
               <div></div>
               <span>
-                <input className="form-first form-control" />
+                <input className="form-first form-control" value="Ed" />
               </span>
               <span>
-                <input className="form-last form-control" />
+                <input className="form-last form-control" value="Va"/>
               </span>
               <div></div>
               <label className="form-label">Email</label>
@@ -117,6 +122,13 @@ const ProfilePage = () => {
                 <option>UnitedStates</option>
                 <option>Perú</option>
                 <option>Colombia</option>
+                <option>Chile</option>
+                <option>Bolivia</option>
+                <option>Argentina</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Japan</option>
+                <option>Spain</option>
               </select>
               <input className="form-last form-control" />
               <label className="form-label">Phone</label>

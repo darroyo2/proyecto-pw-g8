@@ -1,10 +1,3 @@
-  .menu{
-    display: block;
-    height: 300px;
-    width: 1000px;
-    background-color: #343f4b;
-  }
-
   .bloqueL{
     display: inline-block;
     width: 400px;
@@ -14,14 +7,31 @@
   }
 
   .bloqueD{
+    position: relative;
+    top: 150px;
     display: inline-block;
     padding-top: 50px;
-    width: 750px;
+    width: 690px;
     padding-left: 50px;
     height: 650px;
     border-right-color: gray;
-    border-radius: 5px;
-
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .bloqueMedio{
+    position:relative;
+    bottom: 271px;
+    display: inline-block;
+    border-style: solid;
+    border-right-color: gray;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: none;
+    width: 230px;
+    height: 650px;
+    padding-top: 2%;
+    padding-left: 2%;
   }
 
   .fondo{
@@ -30,7 +40,7 @@
   }
   .update{
   background-color:#c25be9;
-  margin-top: 50px;
+  margin-top: 80px;
   display: inline;
   width: 200px;
   }
@@ -55,7 +65,9 @@
     width: 600px;
   }
 .cancel{
-  margin-top: 30px;
+  position: relative;
+  top: 35px;
+  left: 15px;
 }
 .city{
   margin-left: 30%;
