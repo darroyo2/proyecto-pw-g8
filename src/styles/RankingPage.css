@@ -1,0 +1,48 @@
+
+#ranking_body {
+    background-color: rgb(52, 63, 75);
+    color: white;
+    height: 100vh;
+
+}
+
+i {
+    font-size: 20px;
+    color: white;
+}
+
+#home {
+    font-size: 50px;
+    ;
+}
+
+.pc-rank {
+    background-color: rgb(52, 63, 75);
+    color: white;
+    border: 0rem;
+}
+
+.components {
+    width: 40px;
+    height: 40px;
+}
+
+.pc_rank {
+    width: 100px;
+    height: 100px;
+}
+
+.accordion-button::after {
+    width: 2.25rem;
+    height: 2.25rem;
+    background-image:url("../images/caret-down-fill.svg");
+    background-size: 2.25rem;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/caret-down-fill.svg");
+}
+
+.accordion-body {
+    background: rgb(18,54,100);
+    background: linear-gradient(90deg, rgba(18,54,100,1) 18%, rgba(3,68,79,1) 54%, rgba(9,62,89,1) 100%);
+}
