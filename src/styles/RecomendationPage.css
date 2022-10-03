@@ -1,0 +1,42 @@
+.components{
+    width: 40px;
+    height: 40px;
+}
+.d-flex.align-items-center{
+    height: 50px;
+}
+.checkoutbt{
+    font-weight: 600;
+    background: violet;
+    color: white;
+    border-color: violet;
+    width: 200px;
+}
+.backbt{
+    font-weight: 600;
+    background: violet;
+    color: white;
+    border-color: violet;
+    width: 200px;
+}
+
+.page-producto{
+    background-color:rgb(52, 63, 75);
+    color: white;
+    height: 100vh;
+}
+.componentes{
+    background: rgb(18,54,100);
+    background: linear-gradient(90deg, rgba(18,54,100,1) 18%, rgba(3,68,79,1) 54%, rgba(9,62,89,1) 100%);
+}
+.preci{
+    width: 20rem;
+    background-color: rgb(90, 105, 120);
+}
+i{
+    font-size:20px;
+    color: white;
+}
+#home{
+    font-size: 50px;;
+}

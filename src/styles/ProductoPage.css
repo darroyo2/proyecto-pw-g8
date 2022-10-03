@@ -1,0 +1,33 @@
+.producto-page{
+    background-color:rgb(52, 63, 75);
+    color: white;
+    height: 100vh;
+}
+i{
+    font-size:20px;
+    color: white;
+}
+#home{
+    font-size: 50px;;
+}
+.al-carrito{
+    font-weight: 600;
+    background: violet;
+    color: white;
+    border-color: violet;
+    width: 200px;
+}
+.producto{
+    color: white;
+    background: rgb(90, 105, 120);
+}
+th{
+    text-align: center;
+}
+.datos-producto{
+    color: white;
+}
+.detalles{
+    background: rgb(18,54,100);
+    background: linear-gradient(90deg, rgba(18,54,100,1) 18%, rgba(3,68,79,1) 54%, rgba(9,62,89,1) 100%);
+}
