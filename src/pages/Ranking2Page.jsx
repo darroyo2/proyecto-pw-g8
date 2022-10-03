@@ -16,7 +16,7 @@ const RankingsPage = () => {
 	
     return (
         <body class="b">
-	<h1 class="h">Ranking Perifericos</h1>
+	<h1 class="h">Ranking Perifericos mas vendido</h1>
 	<div class="contentlist">
 		
 		
