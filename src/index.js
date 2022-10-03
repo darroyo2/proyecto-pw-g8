@@ -16,6 +16,7 @@ import BuscadorPage from './pages/BuscadorPage';
 import CarritocompraPage from './pages/CarritocompraPage';
 import RegisterPage from './pages/RegisterPage';
 import SignInPage from './pages/SignInPage';
+import ComprashistoricasPage from './pages/ComprashistoricasPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,6 +36,7 @@ root.render(
         <Route path='/rankingf' element={<Ranking2Page/>}/>
         <Route path='/register' element={<RegisterPage/>}/>
         <Route path='/' element={<SignInPage/>}/>
+        <Route path='/comprashistoricas' element={<ComprashistoricasPage/>}/>
         <Route path='/carritocompra' element={<CarritocompraPage/>}/>
       </Routes>
     </BrowserRouter>
