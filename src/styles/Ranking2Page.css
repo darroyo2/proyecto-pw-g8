@@ -4,13 +4,17 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	background-color: aqua;
 }
 
 .h{
 	width: 88%;
 	color: white;
 }
-
+.i{
+	width:225px;
+	height:225px;
+}
 .contentlist{
 	width: 90%;
 	display: flex;
@@ -32,6 +36,14 @@
 	font-size: 52px;
 	border-bottom: 2px solid red;
 	width: 50%;
+}
+
+.pcparts{
+	padding: 24px 0px 24px 0px;
+}
+
+.pcparts h4{
+	font-size: 24px;
 }
 
 .pcparts{

@@ -12,9 +12,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ProductoPage from './pages/ProductoPage';
 import RecomendationPage from './pages/RecomendationPage';
-import rankingsPage from './pages/rankingsPage';
-import buscadorPage from './pages/buscadorPage';
-import carritocompraPage from './pages/carritocompraPage';
+import RankingsPage from './pages/RankingsPage';
+import BuscadorPage from './pages/BuscadorPage';
+import CarritocompraPage from './pages/CarritocompraPage';
 import RegisterPage from './pages/RegisterPage';
 import SignInPage from './pages/SignInPage';
 
@@ -33,11 +33,11 @@ root.render(
         <Route path='/rankings' element={<RankingPage/>}/>
         <Route path='/producto' element={<ProductoPage/>}/>
         <Route path='/recomendacion' element={<RecomendationPage/>}/>
-        <Route path='/buscador' element={<buscadorPage/>}/>
-        <Route path='/rankings' element={<rankingsPage/>}/>
+        <Route path='/buscador' element={<BuscadorPage/>}/>
+        <Route path='/rankings' element={<RankingsPage/>}/>
         <Route path='/register' element={<RegisterPage/>}/>
         <Route path='/login' element={<SignInPage/>}/>
-        <Route path='/carritocompra' element={<carritocompraPage/>}/>
+        <Route path='/carritocompra' element={<CarritocompraPage/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
