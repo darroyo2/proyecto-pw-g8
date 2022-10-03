@@ -102,17 +102,18 @@ const InfluencersPage = () => {
           ></iframe>
           <div></div>
           <div>
-            <img className="iconoInf" src={iconotop5}></img>
-            <div className=" container-fluid descriptionInf">
-              <div className="nameInf"> MR TOP 5</div>
+            <img className="iconoTop5" src={iconotop5}></img>
+            <div className=" container descriptionInf">
+              <h4 className="nameInf"> MR TOP 5.</h4>
               <div className="redline"></div>
-              Thanks to @MrTop5 for showing off the unboxing of the #BuildRedux
-              PC! Check out his video to see his PC and setup!
-              <span></span>
-              <img className="iconoInf" src={iconoshortcircuit}></img>
-              <div display="flex">
-                <h4>MR TOP 5</h4>
-              </div>
+              <div className="textInf">Thanks to @MrTop5 for showing off the unboxing of the #BuildRedux
+              PC! Check out his video to see his PC and setup!</div>
+            </div>
+            <img className="iconoSC" src={iconoshortcircuit}></img>
+            <div className=" container descriptionInf">
+              <h4 className="nameInf"> SHORT CIRCUIT.</h4>
+              <div className="purpleline"></div>
+              <div className="textInf">Thanks for the awesome review @ShortCircuit</div>
             </div>
           </div>
         </div>

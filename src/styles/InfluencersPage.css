@@ -5,32 +5,59 @@
     color: #343f4b;
   }
 .videoemb{
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     margin-left: 10%;
     margin-top: 50px;
     border-radius: 3%;
+    margin-right: 5%;
 }
-.iconoInf{
+.iconoTop5{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin-left: 10%;
-    margin-top: 20px;
     margin-right: 5px;
+    position: relative;
+    bottom:35px
+}
+.iconoSC{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 180px;
+    position: relative;
+    bottom:35px
+
 }
 .redline{
     background: rgb(181, 31, 31);
     width: 140px;
-    height: 20px;
+    height: 15px;
     display: inline-block;  
-    margin-left: 0%;
+    position:relative;
+    right:110px;
+    top: 25px;
+}
+.purpleline{
+    background: rgb(190, 2, 155);
+    width: 140px;
+    height: 15px;
+    display: inline-block;  
+    position:relative;
+    right:170px;
+    top: 25px;
 }
 .nameInf{
     display: inline-block;
 }
 .descriptionInf{
+    margin-top: 10%;
+    display: inline-block;
     height: 500px;
-
-
+    width:480px;
+}
+.textInf{
+    position:relative;
+    top:20px    
 }
