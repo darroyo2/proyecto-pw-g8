@@ -6,7 +6,7 @@ import MainPage from './pages/MainPage';
 import ProfilePage from './pages/ProfilePage';
 import TicketPage from './pages/TicketPage';
 import ReviewPage from './pages/ReviewPage';
-import RankingPage from './pages/RankingPage';
+import RankingPagehistoria24 from './pages/RankingPagehistoria24';
 import InfluencersPage from './pages/InfluencersPage';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -24,7 +24,7 @@ root.render(
         <Route path='/ticket' element={ <TicketPage />} />
         <Route path='/reviews' element={<ReviewPage/>}/>
         <Route path='/influencers' element={<InfluencersPage/>}/>
-        <Route path='/rankings' element={<RankingPage/>}/>
+        <Route path='/rankings' element={<RankingPagehistoria24/>}/>
         <Route path='/producto' element={<ProductoPage/>}/>
         <Route path='/recomendacion' element={<RecomendationPage/>}/>
       </Routes>

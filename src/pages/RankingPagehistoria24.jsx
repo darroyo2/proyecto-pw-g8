@@ -1,4 +1,4 @@
-import "../styles/RankingPage.css";
+import "../styles/RankingPagehistoria24.css";
 import carcasa from '../images/carcasa.png'
 import fans from '../images/fans.png'
 import ddram from '../images/ddram.png'
@@ -12,7 +12,7 @@ import power_suply from '../images/power_suply.png'
 import intel from '../images/Procesador-Intel-Core-i7-10700.png'
 import { useNavigate } from "react-router-dom";
 
-const RankingPage = () => {
+const RankingPagehistoria24 = () => {
     
     const navigate = useNavigate();
     return (<div id="ranking_body">
@@ -433,4 +433,4 @@ const RankingPage = () => {
     );
 };
 
-export default RankingPage;
+export default RankingPagehistoria24;
