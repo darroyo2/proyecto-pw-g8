@@ -22,7 +22,7 @@ const ComprashistoricasPage = () => {
 			<h2>01</h2>
 			<div class="pcparts">
 				<h4>Pantalla pc</h4>
-				<h5></h5>
+				<h5>$59</h5>
 			</div>
 			<img class="i" src={i8} alt="imageAlbum"/>
 			<div class="optionslist">
@@ -36,9 +36,9 @@ const ComprashistoricasPage = () => {
 			<h2>02</h2>
 			<div class="pcparts">
 				<h4>CPU box</h4>
-				<h5>$99</h5>
+				<h5>$49</h5>
 			</div>
-			<img class="i" src={i10} alt="imageAlbum"/>
+			<img class="i" src={i9} alt="imageAlbum"/>
 			<div class="optionslist">
 				<img class="d" src={i1} alt="download"/>
 				<img class="d" src={i2} alt="heart"/>
@@ -50,7 +50,7 @@ const ComprashistoricasPage = () => {
 			<h2>03</h2>
 			<div class="pcparts">
 				<h4>Ventilador PC</h4>
-				<h5>$99</h5>
+				<h5>$39</h5>
 			</div>
 			<img class="i" src={i10} alt="imageAlbum"/>
 			<div class="optionslist">
@@ -64,7 +64,7 @@ const ComprashistoricasPage = () => {
 			<h2>07</h2>
 			<div class="pcparts">
 				<h4>Camara web</h4>
-				<h5>$99</h5>
+				<h5>$29</h5>
 			</div>
 			<img class="i" src={i11} alt="imageAlbum"/>
 			<div class="optionslist">

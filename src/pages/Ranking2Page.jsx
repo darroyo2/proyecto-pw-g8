@@ -24,7 +24,7 @@ const RankingsPage = () => {
 			<h2>01</h2>
 			<div class="pcparts">
 				<h4>Ventilador PC</h4>
-				<h5></h5>
+				<h5>$19</h5>
 			</div>
 			<img class="i" src={i10} alt="imageAlbum"/>
 			<div class="optionslist">
@@ -38,7 +38,7 @@ const RankingsPage = () => {
 			<h2>02</h2>
 			<div class="pcparts">
 				<h4>Camara web</h4>
-				<h5></h5>
+				<h5>$29</h5>
 			</div>
 			<img class="i" src={i11} alt="imageAlbum"/>
 			<div class="optionslist">
@@ -52,7 +52,7 @@ const RankingsPage = () => {
 			<h2>03</h2>
 			<div class="pcparts">
 				<h4>Mouse gamer</h4>
-				<h5></h5>
+				<h5>$19</h5>
 			</div>
 			<img class="i" src={i12} alt="imageAlbum"/>
 			<div class="optionslist">
