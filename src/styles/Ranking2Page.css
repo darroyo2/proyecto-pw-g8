@@ -1,10 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
 .b{
 	height: 100vh;
 	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	background-color: aqua;
+	background-color:rgb(52,62,75);
 }
 
 .h{
@@ -52,4 +58,14 @@
 
 .pcparts h4{
 	font-size: 24px;
+}
+.d{
+	width: 25px;
+	height: 25px;
+}
+.optionslist{
+	padding-top: 24px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
 }
