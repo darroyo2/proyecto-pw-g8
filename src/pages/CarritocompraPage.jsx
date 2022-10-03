@@ -1,4 +1,11 @@
 import "../styles/carritocompra.css";
+import i1 from "../img/1.jpg"
+import i2 from "../img/2.jpg"
+import i3 from "../img/3.jpg"
+import i4 from "../img/4.jpg"
+import i5 from "../img/5.jpg"
+import i6 from  "../img/6.jpg"
+
 const carritocompraPage = () => {
     return (
         <body class="b">
@@ -15,7 +22,7 @@ const carritocompraPage = () => {
             
         </div>
     </header>
-    /* START SECTION STORE */
+    
     <section class="store">
         <div class="container">
             <div class="items">
@@ -24,7 +31,7 @@ const carritocompraPage = () => {
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
                             <h3 class="item-title">tarjetagrafica</h3>
-                            <img class="item-image" src="./img/tarjetagrafica.jpg"/>
+                            <img class="item-image" src={i1}/>
 
                             <div class="item-details">
                                 <h4 class="item-price">1099€</h4>
@@ -36,7 +43,7 @@ const carritocompraPage = () => {
                         <div class="item shadow mb-4">
                             <h3 class="item-title">Corei5</h3>
 
-                            <img class="item-image" src="./img/corei5.jpg"/>
+                            <img class="item-image" src={i2}/>
 
                             <div class="item-details">
                                 <h4 class="item-price">199€</h4>
@@ -49,12 +56,12 @@ const carritocompraPage = () => {
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">CPUBOX</h3>
+                            <h3 class="item-title">Memoria RAM</h3>
 
-                            <img class="item-image" src="./img/cajacpu.jpg"/>
+                            <img class="item-image" src={i3}/>
 
                             <div class="item-details">
-                                <h4 class="item-price">39€</h4>
+                                <h4 class="item-price">339€</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
@@ -63,7 +70,7 @@ const carritocompraPage = () => {
                         <div class="item shadow mb-4">
                             <h3 class="item-title">Pantalla</h3>
 
-                            <img class="item-image" src="./img/pantalla.jpg"/>
+                            <img class="item-image" src={i4}/>
 
                             <div class="item-details">
                                 <h4 class="item-price">199€</h4>
@@ -75,11 +82,11 @@ const carritocompraPage = () => {
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Memoria RAM</h3>
+                            <h3 class="item-title">CPU BOX</h3>
 
-                            <img class="item-image" src="./img/memoriaram.jpg"/>
+                            <img class="item-image" src={i5}/>
                             <div class="item-details">
-                                <h4 class="item-price">199€</h4>
+                                <h4 class="item-price">39€</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
@@ -88,7 +95,7 @@ const carritocompraPage = () => {
                         <div class="item shadow mb-4">
                             <h3 class="item-title">Ventilador pc</h3>
 
-                            <img class="item-image" src="./img/ventilador.jpg"/>
+                            <img class="item-image" src={i6}/>
                             <div class="item-details">
                                 <h4 class="item-price">19€</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
@@ -99,8 +106,7 @@ const carritocompraPage = () => {
             </div>
         </div>
     </section>
-    /* END SECTION STORE */
-    /* START SECTION SHOPPING CART */
+    
     <section class="shopping-cart">
         <div class="container">
             <h1 class="text-center">CARRITO</h1>
@@ -122,12 +128,12 @@ const carritocompraPage = () => {
                     </div>
                 </div>
             </div>
-            /* ? START SHOPPING CART ITEMS */
+            
             <div class="shopping-cart-items shoppingCartItemsContainer">
             </div>
-            /* ? END SHOPPING CART ITEMS */
+            
 
-            /* START TOTAL */
+            
             <div class="row">
                 <div class="col-12">
                     <div class="shopping-cart-total d-flex align-items-center">
@@ -152,9 +158,9 @@ const carritocompraPage = () => {
                 </div>
             </div>
 
-            /* END TOTAL */
+            
 
-            /* START MODAL COMPRA */
+            
             <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -174,25 +180,25 @@ const carritocompraPage = () => {
                     </div>
                 </div>
             </div>
-            /* END MODAL COMPRA */
+            
 
 
         </div>
 
     </section>
-    /* END SECTION SHOPPING CART */
+    
 
 
-    /* START FOOTER */
+    
     <footer class="bg-dark p-3 mt-5">
         <p class="text-center m-0 text-muted">Tienda componentes PC</p>
     </footer>
-    /* END FOOTER */
+    
 
 
 
 
-    /**/* SCRIPTS */**/
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -203,7 +209,7 @@ const carritocompraPage = () => {
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
-    <script src="./tienda.js"></script>
+    
 
 </body> ); };
 export default carritocompraPage;
