@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import LoginPage from './pages/LoginPage';
 import MainPage from './pages/MainPage';
 import ProfilePage from './pages/ProfilePage';
 import TicketPage from './pages/TicketPage';
@@ -24,7 +23,6 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={ <LoginPage /> } />
         <Route path='/main' element={ <MainPage /> } />
         <Route path='/profile' element={ <ProfilePage /> } />
         <Route path='/ticket' element={ <TicketPage />} />
@@ -36,7 +34,7 @@ root.render(
         <Route path='/buscador' element={<BuscadorPage/>}/>
         <Route path='/rankingf' element={<Ranking2Page/>}/>
         <Route path='/register' element={<RegisterPage/>}/>
-        <Route path='/login' element={<SignInPage/>}/>
+        <Route path='/' element={<SignInPage/>}/>
         <Route path='/carritocompra' element={<CarritocompraPage/>}/>
       </Routes>
     </BrowserRouter>
