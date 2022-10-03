@@ -26,10 +26,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i5} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src= {i1}alt="download"/>
-				<img src= {i2}alt="heart"/>
-				<img src= {i3}alt="share"/>
-				<img src= {i4}alt="dots"/>
+				<img class="d" src= {i1}alt="download"/>
+				<img class="d" src= {i2}alt="heart"/>
+				<img class="d" src= {i3}alt="share"/>
+				<img class="d" src= {i4}alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -40,10 +40,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i6} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4} alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4} alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -54,10 +54,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i7} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4} alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4} alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -68,10 +68,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i8} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4} alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4} alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -82,10 +82,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i9} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4}alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4}alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -96,10 +96,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i10} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4} alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4} alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -110,10 +110,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i11} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4} alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4} alt="dots"/>
 			</div>
 		</div>
 		<div class="layerlist">
@@ -124,10 +124,10 @@ const RankingsPage = () => {
 			</div>
 			<img class="i" src={i12} alt="imageAlbum"/>
 			<div class="optionslist">
-				<img src={i1} alt="download"/>
-				<img src={i2} alt="heart"/>
-				<img src={i3} alt="share"/>
-				<img src={i4} alt="dots"/>
+				<img class="d" src={i1} alt="download"/>
+				<img class="d" src={i2} alt="heart"/>
+				<img class="d" src={i3} alt="share"/>
+				<img class="d" src={i4} alt="dots"/>
 			</div>
 		</div>
 	</div>
