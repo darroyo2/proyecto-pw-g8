@@ -1,5 +1,5 @@
 import "../styles/ReviewPage.css";
-import stars from '../images/stars.png'
+import stars from '../images/stars.png';
 
 const ReviewPage = () => {
   return (
