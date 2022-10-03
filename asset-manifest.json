@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0098994.css",
+    "main.js": "/static/js/main.d7bf859b.js",
+    "static/js/787.83e13401.chunk.js": "/static/js/787.83e13401.chunk.js",
+    "static/media/carcasa.png": "/static/media/carcasa.e1041dee16e217f594a4.png",
+    "static/media/ddram.png": "/static/media/ddram.af265f6e1a2e57ac0f5a.png",
+    "static/media/mother_board.png": "/static/media/mother_board.b6f5503687b26c0da42b.png",
+    "static/media/pc.png": "/static/media/pc.efd5147cb94cdbde87bd.png",
+    "static/media/pc_gamer.png": "/static/media/pc_gamer.2e9a02d05c474af2d90d.png",
+    "static/media/power_suply.png": "/static/media/power_suply.a58260ba6b1ecbc1c0a0.png",
+    "static/media/nvme.png": "/static/media/nvme.05368da8bfb9f1f471e3.png",
+    "static/media/Procesador-Intel-Core-i7-10700.png": "/static/media/Procesador-Intel-Core-i7-10700.652482f52701d1763409.png",
+    "static/media/master_liquid.png": "/static/media/master_liquid.377273326c17bd091e13.png",
+    "static/media/mrtop5.jpg": "/static/media/mrtop5.91df2eb820a1e7c7a0ba.jpg",
+    "static/media/1.jpg": "/static/media/1.55d5b3d20c022333a542.jpg",
+    "static/media/fans.png": "/static/media/fans.ec5ae648a21f3c313eeb.png",
+    "static/media/2.jpg": "/static/media/2.445716aa53ef9922bb11.jpg",
+    "static/media/6.jpg": "/static/media/6.26d053892494e4f0e61f.jpg",
+    "static/media/nvidia.png": "/static/media/nvidia.129d2ff0e8c9db523cf6.png",
+    "static/media/5.jpg": "/static/media/5.b7c2211288a1679bbc7a.jpg",
+    "static/media/shortcircuit.jpg": "/static/media/shortcircuit.58652824846de98cb110.jpg",
+    "static/media/3.jpg": "/static/media/3.b7f356bf162ec17e3556.jpg",
+    "static/media/7.JPG": "/static/media/7.afef6f3eaf90549396a0.JPG",
+    "static/media/8.JPG": "/static/media/8.4a7ca044b4d6c1e24ae3.JPG",
+    "static/media/4.jpg": "/static/media/4.0e2404214d7cf0fa35c4.jpg",
+    "static/media/share.JPG": "/static/media/share.794a13b195c39e9862f9.JPG",
+    "static/media/download.JPG": "/static/media/download.555e03366386f1158202.JPG",
+    "static/media/heart.JPG": "/static/media/heart.a60d14b79f23190a79a5.JPG",
+    "static/media/dots.JPG": "/static/media/dots.5d8004ebd3b82d1a1039.JPG",
+    "index.html": "/index.html",
+    "static/media/caret-down-fill.svg": "/static/media/caret-down-fill.3829edc57af0f5e0377e.svg",
+    "main.c0098994.css.map": "/static/css/main.c0098994.css.map",
+    "main.d7bf859b.js.map": "/static/js/main.d7bf859b.js.map",
+    "787.83e13401.chunk.js.map": "/static/js/787.83e13401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0098994.css",
+    "static/js/main.d7bf859b.js"
+  ]
+}
