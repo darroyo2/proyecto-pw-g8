@@ -19,7 +19,7 @@ const ComprashistoricasPage = () => {
 	<h1 class="h">Compras historicas</h1>
 	<div class="contentlist">
 	<div class="layerlist">
-			<h2>01</h2>
+			<h2>ID ordencompra_01</h2>
 			<div class="pcparts">
 				<h4>Pantalla pc</h4>
 				<h5>$59</h5>
@@ -33,7 +33,7 @@ const ComprashistoricasPage = () => {
 			</div>
 		</div>	
     <div class="layerlist">
-			<h2>02</h2>
+			<h2>ID ordencompra_01</h2>
 			<div class="pcparts">
 				<h4>CPU box</h4>
 				<h5>$49</h5>
@@ -47,7 +47,7 @@ const ComprashistoricasPage = () => {
 			</div>
 		</div>
 		<div class="layerlist">
-			<h2>03</h2>
+			<h2>ID ordencompra_01</h2>
 			<div class="pcparts">
 				<h4>Ventilador PC</h4>
 				<h5>$39</h5>
@@ -61,7 +61,7 @@ const ComprashistoricasPage = () => {
 			</div>
 		</div>
 		<div class="layerlist">
-			<h2>07</h2>
+			<h2>ID ordencompra_02</h2>
 			<div class="pcparts">
 				<h4>Camara web</h4>
 				<h5>$29</h5>
@@ -75,7 +75,7 @@ const ComprashistoricasPage = () => {
 			</div>
 		</div>
 		<div class="layerlist">
-			<h2>08</h2>
+			<h2>ID ordencompra_02</h2>
 			<div class="pcparts">
 				<h4>Mouse gamer</h4>
 				<h5>$19</h5>
