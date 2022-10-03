@@ -15,6 +15,8 @@ import RecomendationPage from './pages/RecomendationPage';
 import rankingsPage from './pages/rankingsPage';
 import buscadorPage from './pages/buscadorPage';
 import carritocompraPage from './pages/carritocompraPage';
+import RegisterPage from './pages/RegisterPage';
+import SignInPage from './pages/SignInPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +35,8 @@ root.render(
         <Route path='/recomendacion' element={<RecomendationPage/>}/>
         <Route path='/buscador' element={<buscadorPage/>}/>
         <Route path='/rankings' element={<rankingsPage/>}/>
+        <Route path='/register' element={<RegisterPage/>}/>
+        <Route path='/login' element={<SignInPage/>}/>
         <Route path='/carritocompra' element={<carritocompraPage/>}/>
       </Routes>
     </BrowserRouter>

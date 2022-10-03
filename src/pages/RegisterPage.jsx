@@ -11,7 +11,7 @@ const RegisterPage = () => {
                 <input className="controls input_iniciosesion" type="password" required name="contraseña" id="contraseña" placeholder="Ingrese una Contraseña"/>
                 <p className="acuerdo">Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
                 <button className="botonregistro">Registrarse</button>
-                <p className="link"><a href="iniciosesion.html">¿Ya tienes una cuenta?</a></p> 
+                <p className="link"><a href="#">¿Ya tienes una cuenta?</a></p> 
 	        </form>
         </body>
     </div>
