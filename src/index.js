@@ -12,7 +12,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ProductoPage from './pages/ProductoPage';
 import RecomendationPage from './pages/RecomendationPage';
-import RankingsPage from './pages/RankingsPage';
+import Ranking2Page from './pages/Ranking2Page';
 import BuscadorPage from './pages/BuscadorPage';
 import CarritocompraPage from './pages/CarritocompraPage';
 import RegisterPage from './pages/RegisterPage';
@@ -34,7 +34,7 @@ root.render(
         <Route path='/producto' element={<ProductoPage/>}/>
         <Route path='/recomendacion' element={<RecomendationPage/>}/>
         <Route path='/buscador' element={<BuscadorPage/>}/>
-        <Route path='/rankings' element={<RankingsPage/>}/>
+        <Route path='/rankingf' element={<Ranking2Page/>}/>
         <Route path='/register' element={<RegisterPage/>}/>
         <Route path='/login' element={<SignInPage/>}/>
         <Route path='/carritocompra' element={<CarritocompraPage/>}/>
