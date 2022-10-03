@@ -12,6 +12,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ProductoPage from './pages/ProductoPage';
 import RecomendationPage from './pages/RecomendationPage';
+import rankingsPage from './pages/rankingsPage';
+import buscadorPage from './pages/buscadorPage';
+import carritocompraPage from './pages/carritocompraPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +31,9 @@ root.render(
         <Route path='/rankings' element={<RankingPage/>}/>
         <Route path='/producto' element={<ProductoPage/>}/>
         <Route path='/recomendacion' element={<RecomendationPage/>}/>
+        <Route path='/buscador' element={<buscadorPage/>}/>
+        <Route path='/rankings' element={<rankingsPage/>}/>
+        <Route path='/carritocompra' element={<carritocompraPage/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

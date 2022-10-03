@@ -1,4 +1,4 @@
-import "../styles/carrito.css";
+import "../styles/carritocompra.css";
 const carritocompraPage = () => {
     return (
         <body class="b">

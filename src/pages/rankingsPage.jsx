@@ -1,5 +1,5 @@
-import "../styles/rankingPage.css"
-const rankingPage = () => {
+import "../styles/rankingsPage.css"
+const rankingsPage = () => {
     return (
         <body class="b">
 	<h1 class="h">Ranking List</h1>
@@ -121,4 +121,4 @@ const rankingPage = () => {
 
     );
     };
-    export default rankingPage;
+    export default rankingsPage;
