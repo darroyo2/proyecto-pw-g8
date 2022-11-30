@@ -2,7 +2,7 @@
 #ranking_body {
     background-color: rgb(52, 63, 75);
     color: white;
-    height: 100vh;
+    height: 200vh;
 }
 
 i {
@@ -44,4 +44,5 @@ i {
 .accordion-body {
     background: rgb(18,54,100);
     background: linear-gradient(90deg, rgba(18,54,100,1) 18%, rgba(3,68,79,1) 54%, rgba(9,62,89,1) 100%);
+    
 }
