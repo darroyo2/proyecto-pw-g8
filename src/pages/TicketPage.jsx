@@ -7,8 +7,30 @@ const TicketPage = () => {
     const [telefono, setTelefono] = useState("")
     const [asunto, setAsunto] = useState("")
     const [descripcion, setDescripcion] = useState("")
+    const httpGuardarReporte = async (usuario, email, nombre, telefono, asunto, descripcion) => {
+        const data = {
+            usuario_id : usuario,
+            reporte_email : email,
+            reporte_nombre : nombre,
+            reporte_telefono : telefono,
+            reporte_asunto : asunto,
+            reporte_descripcion : descripcion
+        }
+        const resp = await fetch("http://localhost:4444/reporte", {
+            method : "POST",
+            body : JSON.stringify(data),
+            headers: {
+                "Content-Type" : "application/json"
+            }
+        })
+        const dataResp = await resp.json()
+        if (dataResp.error !== "") {
+            console.log("Hubo un error")
+        }
+    }
     const saveReporte = (email, nombre, telefono, asunto, descripcion) => {
         console.log( `email : ${email} nombre :  ${nombre} telefono : ${telefono} asunto : ${asunto} descripcion : ${descripcion}`)
+        httpGuardarReporte("222571e6-05a8-4bec-9caa-a6dd5bfeecfc", email, nombre, telefono, asunto, descripcion)
     }
   const navigate = useNavigate();
   return (
