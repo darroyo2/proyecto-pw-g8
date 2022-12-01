@@ -11,9 +11,21 @@ import i9 from "../img/5.jpg"
 import i10 from "../img/6.jpg" 
 import i11 from "../img/7.JPG" 
 import i12 from "../img/8.JPG" 
+import React from "react";
+import GridProductos from "GridProductos";
+import { useEffect, useState } from "react";
 
 const RankingsPage = () => {
-	
+	const[listadoproductos,setlistadoproductos]=useState([])
+	const httpobtenerproductos=async()=>{
+		const resp=await fetch("http://localhost:4444/listado_productos")
+		const data=await resp.json()
+		console.log(data)
+		setlistadoproductos(data)
+	}
+	useEffect(()=>{
+		httpobtenerproductos()
+	},[])
     return (
         <body class="b">
 	<h1 class="h">Ranking Perifericos mas vendido</h1>
@@ -23,7 +35,7 @@ const RankingsPage = () => {
 		<div class="layerlist">
 			<h2>01</h2>
 			<div class="pcparts">
-				<h4>Ventilador PC</h4>
+				<div productos={listadoproductos}/>
 				<h5>$19</h5>
 			</div>
 			<img class="i" src={i10} alt="imageAlbum"/>
