@@ -1,9 +1,21 @@
 import "../styles/ReviewPage.css";
 import stars from '../images/stars.png';
 import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 const ReviewPage = () => {
     const navigate = useNavigate();
+    const [listadoReseñas, setListadoReseñas] = useState([])
+
+    const httpObtenerReseñas = async () => {
+        const resp = await fetch("http:localhost:4444/reseñas?tipo=1")
+        const data = await resp.json()
+        console.log(data)
+        setListadoReseñas(data)
+    }
+    useEffect (()=> {
+        httpObtenerReseñas()
+    })
   return (
     <body className="fondo">
               <div><nav className="navbar navbar-expand-lg navbar-dark">
@@ -42,6 +54,7 @@ const ReviewPage = () => {
                 </div>
             </div>
         </nav></div>
+        
         <div className="bg-light bloqueReview">
             <div className="head1Review">
                 <h1>User Reviews</h1>

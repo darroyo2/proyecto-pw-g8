@@ -1,6 +1,37 @@
 import "../styles/TicketPage.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 const TicketPage = () => {
+    const [email, setEmail] = useState("")
+    const [nombre, setNombre] = useState("")
+    const [telefono, setTelefono] = useState("")
+    const [asunto, setAsunto] = useState("")
+    const [descripcion, setDescripcion] = useState("")
+    const httpGuardarReporte = async (usuario, email, nombre, telefono, asunto, descripcion) => {
+        const data = {
+            usuario_id : usuario,
+            reporte_email : email,
+            reporte_nombre : nombre,
+            reporte_telefono : telefono,
+            reporte_asunto : asunto,
+            reporte_descripcion : descripcion
+        }
+        const resp = await fetch("http://localhost:4444/reporte", {
+            method : "POST",
+            body : JSON.stringify(data),
+            headers: {
+                "Content-Type" : "application/json"
+            }
+        })
+        const dataResp = await resp.json()
+        if (dataResp.error !== "") {
+            console.log("Hubo un error")
+        }
+    }
+    const saveReporte = (email, nombre, telefono, asunto, descripcion) => {
+        console.log( `email : ${email} nombre :  ${nombre} telefono : ${telefono} asunto : ${asunto} descripcion : ${descripcion}`)
+        httpGuardarReporte("222571e6-05a8-4bec-9caa-a6dd5bfeecfc", email, nombre, telefono, asunto, descripcion)
+    }
   const navigate = useNavigate();
   return (
     <body className="fondo">
@@ -43,16 +74,16 @@ const TicketPage = () => {
         <h1 className="head1">Submit a Request</h1>
         <div className=" bloqueT bg-light">
               <label className="form-label">Email</label>
-              <input className="form-control" />
+              <input className="form-control" type = "text" value ={email} onChange={(evt) => { setEmail(evt.target.value)} }/>
               <label className="form-label">Name</label>
-              <input className="form-control" />
+              <input className="form-control" type = "text" value ={nombre} onChange={(evt) => { setNombre(evt.target.value)} } />
               <label className="form-label">Phone</label>
-              <input className="form-control" />
+              <input className="form-control" type = "text" value ={telefono} onChange={(evt) => { setTelefono(evt.target.value)} }/>
               <label className="form-label">Subject</label>
-              <input className="form-control" />
+              <input className="form-control" type = "text" value ={asunto} onChange={(evt) => { setAsunto(evt.target.value)} } />
               <label calssName="form-label">Description</label>
-              <textarea className="form-control"rows="8"></textarea>
-              <button className="btn submit btn-primary btn-lg">
+              <textarea className="form-control"rows="8" type = "text" value ={descripcion} onChange={(evt) => { setDescripcion(evt.target.value)} }></textarea>
+              <button className="btn submit btn-primary btn-lg" onClick={() => {saveReporte(email, nombre, telefono, asunto, descripcion)}}>
               Submit
             </button>
           </div>
