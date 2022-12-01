@@ -31,7 +31,7 @@ const ConponentsPage = (props) => {
                                         className="img-fluid components" />
                                 </div>
                                 <div className="flex-grow-1 ms-3">{producto.nombre}</div>
-                                <div className="flex-grow-0 ms-3">{producto.price}</div>
+                                <div className="flex-grow-0 ms-3">{producto.precio}</div>
                             </div>
                             <hr className="my-1" />
                         </div>
