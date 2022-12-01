@@ -12,7 +12,7 @@ import i10 from "../img/6.jpg"
 import i11 from "../img/7.JPG" 
 import i12 from "../img/8.JPG" 
 import React from "react";
-import GridProductos from "GridProductos";
+
 import { useEffect, useState } from "react";
 
 const RankingsPage = () => {
