@@ -1,8 +1,8 @@
 .producto-page{
     background-color:rgb(52, 63, 75);
-    color: white;
-    height: 100vh;
+    height: 120vh;
 }
+
 i{
     font-size:20px;
     color: white;
@@ -25,6 +25,7 @@ th{
     text-align: center;
 }
 .datos-producto{
+    background-color:rgb(52, 63, 75);
     color: white;
 }
 .detalles{

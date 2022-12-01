@@ -30,8 +30,8 @@ root.render(
         <Route path='/reviews' element={<ReviewPage/>}/>
         <Route path='/influencers' element={<InfluencersPage/>}/>
         <Route path='/rankings' element={<RankingPage/>}/>
-        <Route path='/producto' element={<ProductoPage/>}/>
-        <Route path='/recomendacion' element={<RecomendationPage/>}/>
+        <Route path='/producto/:productoId' element={<ProductoPage/>}/>
+        <Route path='/recomendacion/:pcarmadoID' element={<RecomendationPage/>}/>
         <Route path='/buscador' element={<BuscadorPage/>}/>
         <Route path='/rankingf' element={<Ranking2Page/>}/>
         <Route path='/register' element={<RegisterPage/>}/>
