@@ -3,7 +3,7 @@
     height: 40px;
 }
 .d-flex.align-items-center{
-    height: 50px;
+    height: 140px;
 }
 .checkoutbt{
     font-weight: 600;
@@ -23,7 +23,7 @@
 .page-producto{
     background-color:rgb(52, 63, 75);
     color: white;
-    height: 100vh;
+    height: 300vh;
 }
 .componentes{
     background: rgb(18,54,100);

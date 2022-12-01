@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Button,Card, CardDeck } from 'react-bootstrap'
+import { Row, Col, Button, Card, CardDeck } from 'react-bootstrap'
 import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router";
@@ -7,21 +7,22 @@ import { RUTA_BACKEND } from "../conf";
 import nvidia from '../images/nvidia.png'
 import intel from '../images/Procesador-Intel-Core-i7-10700.png'
 const ConponentsPage = (props) => {
-    
+    return<div>
     {
         // EXPRESION javascript
         (() => {
             if (props.productos.length === 0) {
                 return <div>No hay mercancia existente</div>
-            }else {
+            } else {
                 var listaveri = []
                 props.pcarmado.map((pcarmado) => {
                     listaveri.push(pcarmado.producto_id)
                 })
-                var listaveriJson =JSON.stringify(listaveri)
-                console.log(listaveriJson)      
+                var listaveriJson = JSON.stringify(listaveri)
+                console.log(listaveriJson.includes(props.productos.id))
+                console.log(props.productos.length)
                 return props.productos.map((producto) => {
-                    if (listaveri.includes(producto.id)) {
+                    if (listaveriJson.includes(producto.id)) {
                         return <div className="row">
                         <div className="col">
                             <div className="d-flex align-items-center">
@@ -36,21 +37,21 @@ const ConponentsPage = (props) => {
                         </div>
                         <div className="col">
                             <div className="d-flex align-items-center">
-                                <div className="flex-shrink-0">
-                                    <img src={nvidia}
-                                        className="img-fluid components" />
-                                </div>
-                                <div className="flex-grow-1 ms-3">NVIDIA GEFORCE RTX 3070 8GB (VR READY)</div>
-                                <div className="flex-grow-0 ms-3">$679</div>
+                                
+                                <div className="flex-grow-1 ms-3">{producto.descripcion}</div>
+                                <div className="flex-grow-0 ms-3">{producto.categoria}</div>
                             </div>
                             <hr className="my-1" />
                         </div>
-                    </div>                
+                    </div>
+                            
+                        
                     }
                 })
             }
         })()
     }
+    </div>
 
 }
 
