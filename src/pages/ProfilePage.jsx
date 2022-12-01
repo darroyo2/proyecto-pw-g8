@@ -1,6 +1,7 @@
 import "../styles/ProfilePage.css";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import { useEffect } from "react";
 const ProfilePage = () => {
   const [correo, setCorreo] = useState("")
   const [nombre, setNombre] = useState("")
@@ -10,6 +11,16 @@ const ProfilePage = () => {
   const [departamento, setDepartamento] = useState("")
   const [ciudad, setCiudad] = useState("")
   const [direccion, setDireccion] = useState("")
+  const [datosPerfil, setDatosPerfil] = useState([])
+  const httpObtenerDatosPerfil = async () => {
+    const resp = await fetch("http://localhost:4444/datosperfil?id=222571e6-05a8-4bec-9caa-a6dd5bfeecfc")
+    const dataDefault = await resp.json()
+    console.log(dataDefault)
+    setDatosPerfil(dataDefault)
+  }
+  useEffect(() => {
+    httpObtenerDatosPerfil()
+  }, [])
   const httpGuardarPerfil = async (usuario, nombre, apellido, correo, direccion, departamento, ciudad, zip, telefono) => {
     const data = {
       usuario_id :  usuario,
