@@ -56,13 +56,7 @@ const RecomendationPage = () => {
             <div className="row align-items-center align-self-start">
                 <div className="col-4">
                     <img src={pc_gamer} className="img-fluid" />
-                </div>
-                <div className="col-8">
-                    <h3 className="mb-5">Components</h3>
-                    <ConponentsPage pcarmado={listaPcarmado} productos={listaProductos}/>
-                </div>
-            </div>
-            <div className="card mt-4 ms-5 preci">
+                    <div className="card mt-4 ms-5 preci">
                 <div className="card-body preci">
                     <div className="row">
                         <div className="col">
@@ -76,6 +70,13 @@ const RecomendationPage = () => {
                     </div>
                 </div>
             </div>
+                </div>
+                <div className="col-8">
+                    <h3 className="mb-5">Components</h3>
+                    <ConponentsPage pcarmado={listaPcarmado} productos={listaProductos}/>
+                </div>
+            </div>
+            
         </div>
     </div>)
 }
